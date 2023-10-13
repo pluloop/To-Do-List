@@ -1,0 +1,23 @@
+h1{
+    font-family: "Arial";
+    text-align: center;
+    margin: 2rem auto;
+}
+
+input{
+    width: 90rem;
+    height: 3rem;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.25rem;
+}
+
+button{
+    width: 3.75rem;
+    height: 3.15rem;
+    margin: -3.25rem 125.5rem;
+    display: block;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    background-color: #088CBA;
+}
