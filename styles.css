@@ -12,7 +12,7 @@ input{
     font-size: 1.25rem;
 }
 
-button{
+.add-button{
     width: 3.75rem;
     height: 3.15rem;
     margin: -3.25rem 125.5rem;
@@ -20,4 +20,46 @@ button{
     color: #FFFFFF;
     font-size: 1.4rem;
     background-color: #088CBA;
+    border: 1px solid #FFFFFF;
+}
+
+.finished-button{
+    width: 6rem;
+    height: 2.75rem;
+    background-color: #4CB04F;
+    margin: -3.8rem 132.5rem;
+    display: block;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.delete-button{
+    width: 6rem;
+    height: 2.75rem;
+    background-color: #F34336;
+    margin: 1rem 139rem;
+    display: block;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.container{
+    margin: 1rem auto;
+    width: 146rem;
+    height: 4.5rem;
+    display: block;
+    border: 1px solid #E0E0E0;
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+p{
+    font-family: "Arial";
+    font-size: 1.5rem;
+}
+
+.list-items{
+    margin: 5.5rem auto;
 }
