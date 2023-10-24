@@ -3,8 +3,12 @@ const button = document.getElementById("add-button");
 const listItems = document.getElementById("list-items");
 
 function addItem(){
+<<<<<<< HEAD
     if (textInput.value != ""){
         const container = document.createElement("div");
+=======
+    const container = document.createElement("div");
+>>>>>>> 662b2fcda25f844276739c5857f28095a9696a8b
     let newItem = document.createElement("p");
     let finishedButton = document.createElement("button");
     let deleteButton = document.createElement("button");
@@ -21,6 +25,7 @@ function addItem(){
     container.appendChild(finishedButton);
     container.appendChild(deleteButton);
     listItems.appendChild(container);
+<<<<<<< HEAD
     }
 
     textInput.value = "";
@@ -48,3 +53,15 @@ listItems.addEventListener("click", function (event){
 });
 
 button.addEventListener("click", addItem);
+=======
+}
+
+function crossItem(event){
+    let element = event.target;
+
+    //check if the parent element of the element variable has a class of container
+        //change the text decoration to line-through
+}
+
+button.addEventListener("click", addItem);
+>>>>>>> 662b2fcda25f844276739c5857f28095a9696a8b

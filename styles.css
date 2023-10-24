@@ -27,8 +27,13 @@ input{
 .finished-button{
     width: 6rem;
     height: 2.75rem;
+<<<<<<< HEAD
     margin: 0%;
     background-color: #4CB04F;
+=======
+    background-color: #4CB04F;
+    margin: -3.8rem 132.5rem;
+>>>>>>> 662b2fcda25f844276739c5857f28095a9696a8b
     display: block;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
@@ -38,8 +43,13 @@ input{
 .delete-button{
     width: 6rem;
     height: 2.75rem;
+<<<<<<< HEAD
     margin: 0 0.75%;
     background-color: #F34336;
+=======
+    background-color: #F34336;
+    margin: 1rem 139rem;
+>>>>>>> 662b2fcda25f844276739c5857f28095a9696a8b
     display: block;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
@@ -47,6 +57,7 @@ input{
 }
 
 .container{
+<<<<<<< HEAD
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -54,13 +65,24 @@ input{
     width: 100%;
     height: 4.5rem;
     border: 1px solid #E0E0E0;
+=======
+    margin: 1rem auto;
+    width: 146rem;
+    height: 4.5rem;
+    display: block;
+    border: 1px solid #E0E0E0;
+    text-align: center;
+>>>>>>> 662b2fcda25f844276739c5857f28095a9696a8b
     background-color: #F7F7F7;
 }
 
 p{
     font-family: "Arial";
     font-size: 1.5rem;
+<<<<<<< HEAD
     margin: 0 auto;
+=======
+>>>>>>> 662b2fcda25f844276739c5857f28095a9696a8b
 }
 
 .list-items{
