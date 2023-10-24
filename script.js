@@ -34,18 +34,17 @@ function addItem(){
 // }
 
 listItems.addEventListener("click", function (event){
-    if (event.target.classList.contains("finished-button")) {
+    if (event.target.classList.contains("finished-button")){
         let item = event.target.parentElement.querySelector("p");
         item.style.textDecoration = "line-through";
     }
 });
 
 listItems.addEventListener("click", function (event){
-    if (event.target.classList.contains("delete-button")) {
+    if (event.target.classList.contains("delete-button")){
         const container = event.target.parentElement;
         container.remove();
     }
 });
-
 
 button.addEventListener("click", addItem);
