@@ -6,27 +6,27 @@ const listItems = document.getElementById("list-items");
 function addItem(){
     if (textInput.value != ""){ // if input is empty, no list
         // variables to create border of list, text for item, finished button, and delete button html
-    const container = document.createElement("div");
-    let newItem = document.createElement("p");
-    let finishedButton = document.createElement("button");
-    let deleteButton = document.createElement("button");
-    
-    // adding class to html elements
-    container.classList.add("container");
-    finishedButton.classList.add("finished-button");
-    deleteButton.classList.add("delete-button");
-    
-    // setting text to list and buttons
-    newItem.innerText = textInput.value;
-    finishedButton.innerText = "Finished";
-    deleteButton.innerText = "Delete";
-    
-    // adding html elements inside another
-    container.appendChild(newItem);
-    container.appendChild(finishedButton);
-    container.appendChild(deleteButton);
-    listItems.appendChild(container);
-}
+        const container = document.createElement("div");
+        let newItem = document.createElement("p");
+        let finishedButton = document.createElement("button");
+        let deleteButton = document.createElement("button");
+        
+        // adding class to html elements
+        container.classList.add("container");
+        finishedButton.classList.add("finished-button");
+        deleteButton.classList.add("delete-button");
+        
+        // setting text to list and buttons
+        newItem.innerText = textInput.value;
+        finishedButton.innerText = "Finished";
+        deleteButton.innerText = "Delete";
+        
+        // adding html elements inside another
+        container.appendChild(newItem);
+        container.appendChild(finishedButton);
+        container.appendChild(deleteButton);
+        listItems.appendChild(container);
+    }
 
     textInput.value = ""; // clears text inside input after pressing add button
 }
